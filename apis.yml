@@ -1,7 +1,28 @@
 aid: office-luv
 name: Office Luv
-description: Office Luv is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  OfficeLuv is office management and purchasing software that centralizes all of a
+  workplace's ordering into a single platform. It aggregates dozens of vendors and
+  thousands of products (supplies, snacks, cleaning supplies, groceries, and more)
+  into one unified marketplace with consolidated invoicing, spend analytics and
+  reporting, multi-user approval workflows, employee stipends for remote and in-office
+  staff, and optional on-site service for program design, pricing negotiation, and
+  restocking. Customers include Wayfair, Braze, Glassdoor, Hulu, and Upwork. Office
+  Luv was surfaced as a 500 Global portfolio company and added to the API Evangelist
+  network. The product is delivered as a private SaaS web application (app.officeluv.com);
+  no public developer API, OpenAPI, or SDK surface is published at this time.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://s3.amazonaws.com/officeluv/resources/400x315cover.jpg
 url: https://raw.githubusercontent.com/api-evangelist/office-luv/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +32,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Office Management
+- Procurement
+- Purchasing
+- Workplace
+- Marketplace
+- Spend Management
+- SaaS
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +50,27 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://officeluv.com
+  url: https://www.officeluv.com/
+- type: Login
+  url: https://app.officeluv.com/
+- type: SignUp
+  url: https://www.officeluv.com/request-demo
+- type: PrivacyPolicy
+  url: https://www.officeluv.com/privacy-policy
+- type: TermsOfService
+  url: https://www.officeluv.com/terms-of-service
+- type: WellKnown
+  url: well-known/office-luv-well-known.yml
+- type: SecurityTxt
+  url: well-known/office-luv-security.txt
+- type: Security
+  url: well-known/office-luv-security.txt
+- type: VulnerabilityDisclosure
+  url: security/office-luv-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/office-luv-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 4
+  pass: local-v1

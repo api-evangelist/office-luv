@@ -1,0 +1,16 @@
+generated: '2026-07-20'
+method: searched
+source: https://www.officeluv.com
+host: https://www.officeluv.com
+documents:
+  - path: /.well-known/security.txt          # RFC 9116
+    status: 200
+    file: office-luv-security.txt
+  - path: /.well-known/openid-configuration   # OIDC discovery
+    status: 500                               # no OIDC surface (Rails catch-all error)
+  - path: /.well-known/oauth-authorization-server  # RFC 8414
+    status: 500
+  - path: /.well-known/api-catalog            # RFC 9727
+    status: 500
+  - path: /.well-known/ai-plugin.json
+    status: 500
