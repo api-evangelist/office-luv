@@ -11,6 +11,17 @@ description: >-
   Luv was surfaced as a 500 Global portfolio company and added to the API Evangelist
   network. The product is delivered as a private SaaS web application (app.officeluv.com);
   no public developer API, OpenAPI, or SDK surface is published at this time.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
